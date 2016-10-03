@@ -1,4 +1,5 @@
 ﻿Imports System.Math
+Imports PC4___P13.UIP.Arithmetics
 
 Public Class MainForm
     Dim a, b As Integer
@@ -28,34 +29,4 @@ Public Class MainForm
         TextBoxDiv.Text = Floor(GetDivision(Me.a, Me.b)).ToString
         TextBoxMod.Text = GetModulus(Me.a, Me.b).ToString
     End Sub
-
-    Private Function GetModulus(a As Integer, b As Integer) As Integer
-        Dim result As Integer = 0
-
-        Try
-            result = a Mod b
-        Catch ex As DivideByZeroException
-            result = a Mod 1
-        End Try
-
-        Return result
-    End Function
-
-    Private Function GetDivision(a As Integer, b As Integer) As Single
-        Return a / b
-    End Function
-
-    Private Function GetMultiplication(a As Integer, b As Integer) As Integer
-        Return a * b
-    End Function
-
-    Private Function GetSubtraction(a As Integer, b As Integer) As Integer
-        Return a - b
-    End Function
-
-    Private Function GetAddition(a As Integer, b As Integer) As Integer
-        Return a + b
-    End Function
-
-
 End Class
