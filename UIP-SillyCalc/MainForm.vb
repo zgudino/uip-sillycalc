@@ -1,5 +1,5 @@
 ﻿Imports System.Math
-Imports PC4___P13.UIP.Arithmetics
+Imports UIP.Functions.Arithmetics
 
 Public Class MainForm
     Dim a, b As Integer

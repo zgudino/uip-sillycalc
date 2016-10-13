@@ -264,7 +264,7 @@ Partial Class MainForm
         Me.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "MainForm"
-        Me.Text = "P13"
+        Me.Text = "UIP-SillyCalc"
         Me.InputGroup.ResumeLayout(False)
         Me.InputGroup.PerformLayout()
         Me.OutputGroup.ResumeLayout(False)

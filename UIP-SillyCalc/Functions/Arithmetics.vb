@@ -1,4 +1,4 @@
-﻿Namespace UIP
+﻿Namespace Functions
     Module Arithmetics
         Public Function GetAddition(a As Integer, b As Integer) As Integer
             Return a + b
